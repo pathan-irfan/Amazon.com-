@@ -1,0 +1,662 @@
+* {
+    padding: 0;
+    margin: 0;
+   
+  }
+  
+  #box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Add this line to vertically align navbar items */
+    height: 60px;
+    width: 100%;
+    background-color: black;
+  }
+  
+  #logo {
+    padding-left: 10px;
+    padding-top: 18px;
+    height: 50px;
+    width: auto;
+    color: white;
+  }
+  
+  #location {
+    height: 25px;
+    width: auto;
+  }
+  
+  #img_n_add {
+    background-color: black;
+    margin-left: 16px;
+    width: 160px;
+    border: 0px;
+  }
+  
+  #img_n_add:hover {
+    border: 2px solid white;
+  }
+  
+  #img_n_add span {
+    color: white;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  
+  #img_n_add p {
+    color: white;
+    font-size: 12px;
+  }
+  
+  /* NaVABRFormcss ///////////////////////////////////////////////////////////////////////////////////////////////*/
+  
+  #formbox {
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    border: 3px solid black;
+    margin-top: 4%;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 2px 2px 2px black;
+    margin-left: 40%;
+  }
+  
+  #navfirstpragraph {
+    padding-top: 5px;
+    font-size: 18px;
+    height: 40px;
+    width: auto;
+    background-color: rgb(224, 228, 230);
+  }
+  
+  .btn-close {
+    margin-left: 160px;
+  }
+  
+  #navsecondpra {
+    font-size: 15px;
+    
+  }
+  #navbarbtn button {
+    background-color: yellow;
+    width: 90%;
+    border-radius: 10px;
+  }
+.navbtn {
+    margin-left: 10px;
+    width: 120px;
+    border-radius: 3px;
+  }
+  
+  
+  
+  /*navbar select tag css and search input in that  /////////////////////////////////////////////////////////////////// */
+  
+  #serchItem {
+    border: none;
+    height: 100%;
+    width: 5%;
+  }
+  
+  #searchbaar {
+    margin-top: 0%;
+    margin-left: 0.5%;
+    height: 70%;
+    width: 55%;
+    border: 2px solid orange;
+    background-color: white;
+  }
+  
+  #searchInput {
+    width: 89%;
+    height: 100%;
+    border: 2px solid orange;
+  }
+  
+  .searchbtn {
+    width: 6%;
+    height: 100%;
+    background-color: orange;
+  }
+  
+  #flagofsearchbar {
+    height: 50%;
+    width: 3%;
+    margin-top: 1%;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  #flagofsearchbar:hover {
+    border: 2px solid white;
+  }
+  
+  .flagimg {
+    height: 40%;
+    margin-top: 18px;
+    margin-left: 1%;
+  }
+  
+  #singinbtn {
+    width: 8%;
+    color: white;
+    margin-top: 4px;
+    border: none;
+    background-color: black;
+  }
+  
+  #listIntheAccount {
+    color: white;
+    width: 35%;
+    background-color: black;
+    border: none;
+  }
+  
+  #singinbtn:hover {
+    border: 2px solid white;
+  }
+  
+  #returnorder {
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 1%;
+  }
+  
+  #returnorder:hover {
+    border: 2px solid white;
+  }
+  
+  #cardImg {
+    height: 40px;
+  }
+  
+  #cardIconbtn {
+    width: 5%;
+    margin-left: 2%;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  .card2{
+    color: white;
+    margin-left: 1%;
+  }
+  
+  /* imgages silders css start here ////////////////////////////////////////////////////////////// */
+  
+  #xyz {
+    /* height: 70vh;
+    width: 100vw; */
+  }
+  
+  .sliderButton {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    z-index: 1;
+    position: fixed;
+  }
+  
+  #imgSlider {
+    height: 50vh;
+    width: 100vw;
+  }
+  
+  .sliderButton:first-child {
+    left: 10px;
+    height: 32%;
+    width: 4%;
+    opacity: 30%;
+  }
+  
+  .sliderButton:last-child {
+    right: 10px;
+    height: 32%;
+    width: 4%;
+    opacity: 30%;
+  }
+  
+  .sliderButton:last-child:hover {
+    opacity: 80%;
+  }
+  
+  .sliderButton:first-child:hover {
+    opacity: 80%;
+  }
+  #Test{
+    
+    height: 105vh;
+    background:linear-gradient(rgb(180, 180, 241),rgb(238, 232, 232));
+  }
+  
+  /* CSS for the sign-in search bar page */
+  
+  #singinsearchbarpage {
+    position: absolute;
+    height: 38%;
+    width: 33%;
+    background-color: white;
+    box-shadow: 1px 1px 1px black;
+    margin-top: 4%;
+    left: 60%;
+  }
+  
+  #singInbtn {
+    background-color: yellow;
+    margin-top: 2%;
+    width: 42%;
+    border-radius: 6px;
+    height: 100%;
+  }
+  
+  .startpra {
+    font-size: 13px;
+  }
+  
+  #yourList {
+    border: black 2px solid;
+    height: 25vh;
+    margin-left: 2%;
+    width: 50%;
+  }
+  
+  #yourAccount {
+    height: 25vh;
+    width: 50%;
+    border: black 2px solid;
+  }
+  
+  #spandiv {
+    display: flex;
+  }
+  
+  /* Main box CSS start here */
+  
+  #mainbox {
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+  }
+  
+  #imggg {
+    height: 200px;
+    width: 300px;
+  }
+  
+  /* Other CSS included for testing */
+  
+  div#Photos {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  div.Product {
+    width: 200px;
+    height: 300px;
+  }
+  
+  h5.card-title {
+    font-weight: bold;
+    font-family: Arial;
+  }
+  
+  p.card-title {
+    font-family: Arial;
+  }
+  
+  div#body img {
+    width: 300px;
+    height: 250px;
+  }
+  
+  div#header {
+    height: 10%;
+  }
+  
+  div#body {
+    background-color: white;
+    border: 1px solid black;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  input[type="search"] {
+    width: 50%;
+    height: 50%;
+    border: 1px solid gray;
+    padding-left: 1%;
+  }
+  
+  button#search {
+    background-color: gray;
+    color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 8%;
+    margin-left: 2%;
+  }
+  
+  figure {
+    box-shadow: 2px 2px 5px darkgray;
+    margin: 15px;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .srcimg {
+    height: 150px;
+  }
+  
+  #main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  
+  .int {
+    margin-bottom: 100px;
+  }
+  
+  /* Responsive CSS */
+  
+  @media screen and (max-width: 600px) {
+    /* Styles for screens smaller than 600px */
+    #cardImg{
+      padding-left: 20px;
+    }
+    #cont span {
+      color: white;
+    }
+    #count{
+      margin-left: 4px;
+      border: 2px solid white;
+      height: 50px;
+    }
+    #box {
+      flex-direction: column;
+      height: auto;
+    }
+    
+    #logo {
+      padding-top: 10px;
+      text-align: center;
+    }
+    
+    #img_n_add {
+      margin-left: 10px;
+      margin-top: 10px;
+      width: auto;
+    }
+    
+    #navsecondpra {
+      text-align: center;
+      margin-top: 10px;
+    }
+    
+    #searchbaar {
+      margin-top: 10px;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    #searchInput {
+      width: 80%;
+    }
+    
+    #flagofsearchbar {
+      margin-top: 10px;
+      width: 10%;
+    }
+    
+    .flagimg {
+      margin-top: 5px;
+      margin-left: 2px;
+    }
+    
+    #singinbtn {
+      margin-top: 10px;
+      width: auto;
+      margin-right: auto;
+    }
+    
+    #returnorder {
+      margin-top: 10px;
+      margin-left: 2%;
+    }
+    
+    /* #cardIconbtn {
+      margin-top: 10px;
+      margin-left: ;
+      
+    } */
+    
+    #xyz {
+      height: auto;
+    }
+    
+    .sliderButton {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+    #imgSlider {
+      height: auto;
+    }
+    
+    #singinsearchbarpage {
+      height: auto;
+      width: 80%;
+      left: 10%;
+    }
+    
+    #yourList {
+      width: 80%;
+      margin-left: 10%;
+    }
+    
+    #yourAccount {
+      width: 80%;
+      margin-left: 10%;
+    }
+    
+    #mainbox {
+      width: 100%;
+    }
+    
+    #imggg {
+      height: auto;
+      width: 100%;
+    }
+   
+    
+    div.Product {
+      width: 100%;
+      height: auto;
+    }
+    
+    div#body img {
+      width: 100%;
+      height: auto;
+    }
+  }
+/* here start samll  component ///////////////////////////////   */
+#serchhistry{
+    width: 22%;
+    height: 50%;
+    border: 0.5px solid rgb(240, 240, 240);
+    position: absolute;
+    background-color: white;
+    margin-left: 1%;
+    box-shadow: 2px 2px 2px white;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+   
+   
+     
+}
+#heading{
+  font-weight: 650;
+  margin-left: 2%;
+  font-size: 145%;
+  color: black;
+}
+#seconcom1 {
+  height: 35%;
+  width: 40%;
+  box-shadow: 2px 2px 2px 2px rgb(225, 224, 224);
+  margin-left: 5%;
+}
+.second {
+  width: 99%;
+  height: 100%;
+}
+.second1 {
+  height: 100%;
+  width: 99%;
+  margin-left: 5%;
+}
+#seconcom2 {
+  margin-left: 5%;
+  height: 35%;
+  width: 40%;
+  box-shadow: 2px 2px 2px 2px rgb(225, 224, 224);
+
+}
+#seconcom1 p{
+  font-size: 10px;
+}
+
+/* //////////////////////////////////////////// */
+#seconcom3 {
+  margin-left: 5%;
+  height: 35%;
+  width: 40%;
+  box-shadow: 2px 2px 2px 2px rgb(225, 224, 224);
+
+ 
+
+}
+.second2 {
+  height: 100%;
+  width: 99%;
+  margin-left: 5%;
+}
+#seconcom4 {
+  margin-left: 5%;
+  height: 35%;
+  width: 40%;
+  box-shadow: 2px 2px 2px 2px rgb(225, 224, 224);
+
+ 
+}
+.second3 {
+  height: 100%;
+  width: 99%;
+  margin-left: 5%;
+}
+
+
+
+/* here start smallcom2 css/////////// */
+#serchhistry3{
+  width: 22%;
+  height: 50%;
+  border: 0.5px solid rgb(240, 240, 240);
+  position: absolute;
+  background-color: white;
+  margin-left: 25.5%;
+  box-shadow: 2px 2px 2px white;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+ }
+ /* here start smallcom3 css/////////// */
+
+ #serchhistry4{
+  width: 22%;
+  height: 50%;
+  border: 0.5px solid rgb(240, 240, 240);
+  position: absolute;
+  background-color: white;
+  margin-left: 50%;
+  box-shadow: 2px 2px 2px white;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+ }
+
+ /* here start smallcom4 css/////////// */
+
+ #serchhistry5{
+  width: 22%;
+  height: 50%;
+  border: 0.5px solid rgb(240, 240, 240);
+  position: absolute;
+  background-color: white;
+  margin-left: 74.6%;
+  box-shadow: 2px 2px 2px white;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+ }
+
+ #compo{
+  
+  margin-top: 1%;
+  
+ }
+#compo1{
+  margin-top: 27%;
+  height: 50%;
+
+}
+
+/* this a new  comopont css   start  ////////////////// */
+#mainnew{
+  height: 400vh;
+  background-color: white;
+}
+#new{
+ height: 100vh;
+ width: auto;
+ background-color: white;
+
+}
+#flex{
+  
+  display: flex;
+  height: 55%;
+  width: 100%;
+  /* border: 0.1px solid black; */
+  box-shadow: 2px 2px 2px rgb(177, 173, 173);
+}
+.newimg{
+ 
+  height: 200px;
+  margin-top: 2%;
+}
+.newimg1{
+ 
+  height: 100px;
+
+}
+.newbtn{
+  
+}
+#myorder{
+  background-image: url(./newcomImages/orderbackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:rgb(225, 224, 224)
+}
